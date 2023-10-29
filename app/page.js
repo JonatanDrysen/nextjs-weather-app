@@ -1,12 +1,12 @@
 "use client"
 
-import GetWeather from "./components/Api";
+import Forecast from "./components/Forecast";
 
 export default function Home() {
   return (
     <div>
-      <h2>Weather app</h2>
-      <GetWeather />
+      <h1>Weather app</h1>
+      <Forecast />
     </div>
   )
 }
