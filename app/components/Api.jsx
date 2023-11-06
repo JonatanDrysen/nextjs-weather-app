@@ -11,7 +11,7 @@ async function fetchWeather() {
       return res
     }
   } catch (err) {
-    console.error(err)
+    console.error("Server error: ", err)
     return false
   }
 }

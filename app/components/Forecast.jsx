@@ -9,7 +9,7 @@ async function Forecast() {
     const weatherMain = weatherItems[1]
     const weatherDescription = weatherItems[2]
     const weatherIcon = `https://openweathermap.org/img/wn/${weatherItems[3]}@2x.png`
-
+    
     function checkPrecipitation(data) {
         if (Object.values(data.current.rain)) {
           return data.current.rain["1h"].toString()
@@ -32,7 +32,7 @@ async function Forecast() {
             {(data.current.snow || data.current.rain) &&
              <p>Precipitation (One hour): {checkPrecipitation(data)}mm</p>
             }
-            <img src={weatherIcon} alt={weatherDescription} />
+            <img src={weatherIcon} alt={weatherMain} />
           </div>
         </>
       )}
