@@ -22,13 +22,14 @@ async function Forecast() {
     <div>
       {data && (
         <>
+          <p>Current weather: {weatherDescription}</p>
+          <br />
           <p>Current location: {data.timezone}</p>
           <p>Current temperature: {data.current.temp}°C</p>
           <p>It feels like {data.current.feels_like}°C</p>
           <p>Humidity: {data.current.humidity}%</p>
-          <br />
+
           <div>
-            <p>Current weather: {weatherDescription}</p>
             {(data.current.snow || data.current.rain) &&
              <p>Precipitation (One hour): {checkPrecipitation(data)}mm</p>
             }
