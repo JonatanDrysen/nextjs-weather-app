@@ -1,4 +1,4 @@
-import fetchWeather from "../Api"
+import fetchWeather from "../../Api"
 import checkPrecipitation from "@/app/utils/checkPrecipitation"
 
 async function Forecast() {

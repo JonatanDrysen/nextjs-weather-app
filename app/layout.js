@@ -1,4 +1,4 @@
-import { Providers } from "./components/Providers"
+import { Providers } from "./components/client/Providers"
 
 export const metadata = {
     title: "Weather App",

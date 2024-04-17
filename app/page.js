@@ -1,7 +1,7 @@
 import { Heading } from "@chakra-ui/react"
-import Forecast from "./components/Forecast"
-import Background from "./components/Background"
-import ForecastContainer from "./components/ForecastContainer"
+import Forecast from "./components/server/Forecast"
+import Background from "./components/client/Background"
+import ForecastContainer from "./components/client/ForecastContainer"
 
 export default function Home() {
     return (

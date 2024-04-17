@@ -1,6 +1,6 @@
 "use client"
 import { Grid } from "@chakra-ui/react"
-import getBackgroundImgColors from "../utils/getBackgroundImgColors"
+import getBackgroundImgColors from "../../utils/getBackgroundImgColors"
 import { useState, useEffect } from "react"
 
 export default function Background({ children }) {
