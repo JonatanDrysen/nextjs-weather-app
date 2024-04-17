@@ -24,7 +24,7 @@
     "hfEifU2ClNlT5UqgHEivK": {
       "id": "hfEifU2ClNlT5UqgHEivK",
       "description": "style/Gradient body background - fetches colors depending on weather background image",
-      "columnId": "column-done"
+      "columnId": "column--C-R9GcK3eiOZXSkIYpy_"
     },
     "VjiCSX1lst31YKY2LhkLo": {
       "id": "VjiCSX1lst31YKY2LhkLo",
@@ -35,6 +35,11 @@
       "id": "mZUJeTmQcGhVE7rZXmall",
       "description": "feature/Dynamic location (lat&lon) fetching in API call",
       "columnId": "column-todo"
+    },
+    "HhFw7xnBQ-7ek4blLq5j3": {
+      "id": "HhFw7xnBQ-7ek4blLq5j3",
+      "description": "fix/Color fetcher for background is slow, make it faster. (lib/serverside?)",
+      "columnId": "column-o-cH47fP8A1XOmX1thcjM"
     }
   },
   "columns": [
@@ -58,14 +63,20 @@
     {
       "id": "column-done",
       "title": "Doing",
+      "tasksIds": []
+    },
+    {
+      "id": "column-o-cH47fP8A1XOmX1thcjM",
+      "title": "Bugs/Fix",
       "tasksIds": [
-        "hfEifU2ClNlT5UqgHEivK"
+        "HhFw7xnBQ-7ek4blLq5j3"
       ]
     },
     {
       "id": "column--C-R9GcK3eiOZXSkIYpy_",
       "title": "Done",
       "tasksIds": [
+        "hfEifU2ClNlT5UqgHEivK",
         "VjiCSX1lst31YKY2LhkLo"
       ]
     }
