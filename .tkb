@@ -19,7 +19,7 @@
     "phVTIWvYsIctVVXEoTZ6D": {
       "id": "phVTIWvYsIctVVXEoTZ6D",
       "description": "style/Weather modal background changes depending on forecast",
-      "columnId": "column-doing"
+      "columnId": "column-done"
     },
     "hfEifU2ClNlT5UqgHEivK": {
       "id": "hfEifU2ClNlT5UqgHEivK",
@@ -56,14 +56,14 @@
     {
       "id": "column-doing",
       "title": "Backlog: style",
-      "tasksIds": [
-        "phVTIWvYsIctVVXEoTZ6D"
-      ]
+      "tasksIds": []
     },
     {
       "id": "column-done",
       "title": "Doing",
-      "tasksIds": []
+      "tasksIds": [
+        "phVTIWvYsIctVVXEoTZ6D"
+      ]
     },
     {
       "id": "column-o-cH47fP8A1XOmX1thcjM",

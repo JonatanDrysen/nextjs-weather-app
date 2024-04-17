@@ -2,7 +2,7 @@
 import { Flex } from "@chakra-ui/react"
 
 export default function ForecastContainer({ children }) {
-    const imagePath = "/weather-snowySky.jpg"
+    const imagePath = "/weather-sunnySky.jpg"
 
     return (
         <Flex id="forecastContainer"

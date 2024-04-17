@@ -5,7 +5,7 @@ import { useState, useEffect } from "react"
 
 export default function Background({ children }) {
     const [colors, setColors] = useState([])
-    const imagePath = "/weather-snowySky.jpg"
+    const imagePath = "/weather-sunnySky.jpg"
 
     useEffect(() => {
         getBackgroundImgColors(imagePath)
