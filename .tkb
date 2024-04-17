@@ -1,0 +1,67 @@
+{
+  "scope": "Workspace",
+  "tasks": {
+    "Ia-fCT1Wxg9KxZolD5kjq": {
+      "id": "Ia-fCT1Wxg9KxZolD5kjq",
+      "description": "feature/Location search field",
+      "columnId": "column-todo"
+    },
+    "SND4yGdAt15WLEg1-nqcs": {
+      "id": "SND4yGdAt15WLEg1-nqcs",
+      "description": "feature/Map component: displays current position",
+      "columnId": "column-todo"
+    },
+    "qBXLUnsL2pieZNMxjaKS3": {
+      "id": "qBXLUnsL2pieZNMxjaKS3",
+      "description": "feature/Tabs in weather modal to see more data",
+      "columnId": "column-todo"
+    },
+    "phVTIWvYsIctVVXEoTZ6D": {
+      "id": "phVTIWvYsIctVVXEoTZ6D",
+      "description": "style/Weather modal background changes depending on forecast",
+      "columnId": "column-doing"
+    },
+    "hfEifU2ClNlT5UqgHEivK": {
+      "id": "hfEifU2ClNlT5UqgHEivK",
+      "description": "style/Gradient body background - fetches colors depending on weather background image",
+      "columnId": "column-done"
+    },
+    "VjiCSX1lst31YKY2LhkLo": {
+      "id": "VjiCSX1lst31YKY2LhkLo",
+      "description": "style/Weather modal background",
+      "columnId": "column--C-R9GcK3eiOZXSkIYpy_"
+    }
+  },
+  "columns": [
+    {
+      "id": "column-todo",
+      "title": "Backlog: features",
+      "tasksIds": [
+        "Ia-fCT1Wxg9KxZolD5kjq",
+        "SND4yGdAt15WLEg1-nqcs",
+        "qBXLUnsL2pieZNMxjaKS3"
+      ]
+    },
+    {
+      "id": "column-doing",
+      "title": "Backlog: style",
+      "tasksIds": [
+        "phVTIWvYsIctVVXEoTZ6D"
+      ]
+    },
+    {
+      "id": "column-done",
+      "title": "Doing",
+      "tasksIds": [
+        "hfEifU2ClNlT5UqgHEivK"
+      ]
+    },
+    {
+      "id": "column--C-R9GcK3eiOZXSkIYpy_",
+      "title": "Done",
+      "tasksIds": [
+        "VjiCSX1lst31YKY2LhkLo"
+      ]
+    }
+  ]
+}

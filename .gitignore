@@ -6,9 +6,6 @@
 # personal design idea folder
 /_ideas
 
-# trello-kanban extension file
-.tkb
-
 # dependencies
 /node_modules
 /.pnp
