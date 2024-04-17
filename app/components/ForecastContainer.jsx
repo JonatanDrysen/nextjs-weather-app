@@ -1,8 +1,8 @@
 "use client"
 import { Flex } from "@chakra-ui/react"
 
-export default function ContentBox({ children }) {
-    const imagePath = "/weather-darkClouds.jpg"    
+export default function ForecastContainer({ children }) {
+    const imagePath = "/weather-snowySky.jpg"
 
     return (
         <Flex id="forecastContainer"

@@ -30,6 +30,11 @@
       "id": "VjiCSX1lst31YKY2LhkLo",
       "description": "style/Weather modal background",
       "columnId": "column--C-R9GcK3eiOZXSkIYpy_"
+    },
+    "mZUJeTmQcGhVE7rZXmall": {
+      "id": "mZUJeTmQcGhVE7rZXmall",
+      "description": "feature/Dynamic location (lat&lon) fetching in API call",
+      "columnId": "column-todo"
     }
   },
   "columns": [
@@ -37,6 +42,7 @@
       "id": "column-todo",
       "title": "Backlog: features",
       "tasksIds": [
+        "mZUJeTmQcGhVE7rZXmall",
         "Ia-fCT1Wxg9KxZolD5kjq",
         "SND4yGdAt15WLEg1-nqcs",
         "qBXLUnsL2pieZNMxjaKS3"

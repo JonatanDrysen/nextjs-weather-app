@@ -1,4 +1,3 @@
-"use client"
 import fetchWeather from "../Api"
 import checkPrecipitation from "@/app/utils/checkPrecipitation"
 

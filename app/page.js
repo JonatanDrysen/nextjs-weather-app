@@ -1,7 +1,7 @@
 import { Heading } from "@chakra-ui/react"
 import Forecast from "./components/Forecast"
 import Background from "./components/Background"
-import ContentBox from "./components/ContentBox"
+import ForecastContainer from "./components/ForecastContainer"
 
 export default function Home() {
     return (
@@ -10,9 +10,9 @@ export default function Home() {
                 Weather App
             </Heading>
 
-            <ContentBox>
+            <ForecastContainer>
                 <Forecast />
-            </ContentBox>
+            </ForecastContainer>
         </Background>
     )
 }
