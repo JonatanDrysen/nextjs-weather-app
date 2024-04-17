@@ -1,28 +1,30 @@
+"use client"
 import { Flex } from "@chakra-ui/react"
 
 export default function ContentBox({ children }) {
-    const imgUrl = "/weather-darkClouds.jpg"
+    const imagePath = "/weather-darkClouds.jpg"    
 
     return (
-        <Flex
+        <Flex id="forecastContainer"
             m="10px"
-            h="30rem"
-            w="60rem"
+            h="70vh"
+            w="80vw"
             justifySelf="center"
             borderRadius="2xl"
             shadow="dark-lg"
-            bgImage={`url(${imgUrl})`}
+            bgImage={`url(${imagePath})`}
             bgSize="cover"
             bgPosition="center"
             bgRepeat="no-repeat"
         >
-            <Flex
-                h="50%"
-                w="30%"
+            <Flex id="forecastInfoContainer"
+                h="90%"
+                w="40%"
                 m="1rem"
+                alignSelf="center"
                 justifyContent="center"
                 alignItems="center"
-                bg="rgba(255, 255, 255, 0.5)"
+                bg="rgba(255, 255, 255, 0.3)"
                 borderRadius="2xl"
             >
                 {children}

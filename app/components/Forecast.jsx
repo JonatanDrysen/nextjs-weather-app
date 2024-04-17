@@ -1,5 +1,6 @@
 "use client"
-import fetchWeather from "./Api"
+import fetchWeather from "../Api"
+import checkPrecipitation from "@/app/utils/checkPrecipitation"
 
 async function Forecast() {
     const response = await fetchWeather()
@@ -9,14 +10,6 @@ async function Forecast() {
     const weatherMain = weatherItems[1]
     const weatherDescription = weatherItems[2]
     const weatherIcon = `https://openweathermap.org/img/wn/${weatherItems[3]}@2x.png`
-
-    function checkPrecipitation(data) {
-        if (Object.values(data.current.rain)) {
-            return data.current.rain["1h"].toString()
-        } else if (Object.values(data.current.snow)) {
-            return data.current.snow["1h"].toString()
-        }
-    }
 
     return (
         <div>
