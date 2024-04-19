@@ -1,4 +1,5 @@
-import { Providers } from "./components/client/Providers"
+import { Providers } from "@/app/components/client/Providers"
+import { WeatherProvider } from "@/app/contexts/weatherContext"
 
 export const metadata = {
     title: "Weather App",
@@ -9,7 +10,9 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <body>
-                <Providers>{ children }</Providers>
+                <WeatherProvider>
+                    <Providers>{children}</Providers>
+                </WeatherProvider>
             </body>
         </html>
     )

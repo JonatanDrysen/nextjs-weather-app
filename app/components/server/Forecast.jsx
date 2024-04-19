@@ -1,9 +1,10 @@
-import fetchWeather from "@/app/Api"
+import { useWeather } from "@/app/contexts/weatherContext"
 import checkPrecipitation from "@/app/utils/checkPrecipitation"
 
 async function Forecast() {
-    const response = await fetchWeather()
-    const data = response.data
+    const weather = useWeather()
+
+    const data = weather.data
 
     const weatherItems = data.current.weather.flatMap((item) => Object.values(item))
     const weatherMain = weatherItems[1]
